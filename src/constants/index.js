@@ -45,17 +45,20 @@ export const SERVICES = [
   {
     id: "01",
     title: "Web Development",
-    desc: "Membangun aplikasi web berperforma tinggi, scalable, dan interaktif menggunakan React/Next.js dan backend robust.",
+    icon: "fa-solid fa-laptop-code",
+    desc: "Building high-performance, scalable, and interactive web applications using React/Next.js architectures backed by robust server-side integrations.",
   },
   {
     id: "02",
     title: "Mobile Development",
-    desc: "Slicing dan mendevelop aplikasi mobile cross-platform menggunakan Flutter dengan REST API integration yang fluid.",
+    icon: "fa-solid fa-mobile-screen-button",
+    desc: "Crafting fluid, cross-platform mobile applications with Flutter, specializing in pixel-perfect UI slicing and seamless REST API integrations.",
   },
   {
     id: "03",
     title: "Full-Stack Development",
-    desc: "Membantu deployment aplikasi ke infrastruktur cloud seperti AWS dan GCP dengan konfigurasi yang aman.",
+    icon: "fa-solid fa-layer-group",
+    desc: "Bridging modern frontend interfaces with secure database management, including deployment and configuration on cloud ecosystems like AWS and GCP.",
   },
 ];
 
