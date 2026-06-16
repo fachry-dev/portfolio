@@ -37,20 +37,20 @@ export default function Contact() {
 
           <div className="space-y-5 pt-8 md:pt-0">
             <a
-              href={`mailto:${PROFILE.email || "fachry@domain.com"}`}
+              href={`mailto:${PROFILE.email || "fachry.bussines@gmail.com"}`}
               className="flex items-center gap-4 text-slate-300 hover:text-accent-purple transition-colors group/link text-sm font-mono"
             >
               <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-accent-purple group-hover/link:bg-accent-purple group-hover/link:text-white transition-all">
                 <i className="fa-solid fa-envelope"></i>
               </div>
-              {PROFILE.email || "fachryrpl@gmail.com"}
+              {PROFILE.email || "fachry.bussines@gmail.com"}
             </a>
 
             <div className="flex items-center gap-4 text-slate-300 text-sm font-mono">
               <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-pink-500">
                 <i className="fa-solid fa-location-dot"></i>
               </div>
-              Jakarta,Indonesia
+              Jakarta, Indonesia
             </div>
 
             <a
