@@ -1,4 +1,4 @@
-import cvPdf from "../assets/docs/CV-FACHRY-WARDANA.pdf";
+import cvPdf from "../assets/docs/CV-Fachry-Rizky-Wardana.pdf";
 import PulseFiImg from "../assets/img/PulseFi_Mockup.png";
 import RamahTechImg from "../assets/img/flyer-ramah-teknologi.jpeg";
 import QrScanImg from "../assets/img/flyer_qr_scanner.png";
@@ -12,6 +12,7 @@ export const PROFILE = {
   name: "Fachry Rizky Wardana",
   role: "Full-Stack Software Developer",
   resumeUrl: cvPdf,
+  email: "fachry.bussines@gmail.com",
 };
 
 export const NAV_LINKS = [
